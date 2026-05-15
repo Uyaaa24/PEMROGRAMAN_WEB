@@ -1,0 +1,60 @@
+/* BODY */
+body {
+    background: #f1f5f9;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+/* CARD (profile & skills) */
+.card-custom {
+    background: white;
+    border-radius: 16px;
+    padding: 20px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+/* PROFILE TEXT */
+.card-custom h6 {
+    margin-top: 5px;
+    margin-bottom: 2px;
+}
+
+/* BADGE SKILLS */
+.badge {
+    padding: 8px 12px;
+    font-size: 13px;
+    border-radius: 12px;
+}
+
+/* ACCORDION */
+.accordion-item {
+    border: none;
+    margin-bottom: 10px;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.05);
+}
+
+/* BUTTON ACCORDION */
+.accordion-button {
+    background-color: #e2e8f0;
+    color: #334155;
+    font-weight: 500;
+    border-radius: 12px !important;
+}
+
+/* SAAT AKTIF */
+.accordion-button:not(.collapsed) {
+    background-color: #22c55e;
+    color: white;
+}
+
+/* HILANGKAN BORDER BIRU BOOTSTRAP */
+.accordion-button:focus {
+    box-shadow: none;
+}
+
+/* ISI ACCORDION */
+.accordion-body {
+    background: #f8fafc;
+    color: #475569;
+}
